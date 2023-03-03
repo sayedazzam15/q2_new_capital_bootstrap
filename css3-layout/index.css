@@ -1,0 +1,129 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-direction-row {
+  flex-direction: row;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.justify-content-space-around {
+  justify-content: space-around;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.bg-dark {
+  background: black;
+}
+
+.bg-purple {
+  background: purple;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.h-20 {
+  height: 20rem;
+}
+
+.justify-content-space-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-content-start {
+  justify-content: start;
+}
+
+.justify-content-end {
+  justify-content: end;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.text-white {
+  color: white;
+}
+
+.p-5 {
+  padding: 1em;
+}
+
+.div-height {
+  height: 10rem;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-50-vw {
+  width: 50vw;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.w-25 {
+  width: 25vw;
+}
+
+.bg-blue {
+  background: blue;
+}
+
+.bg-red {
+  background: red;
+}
+
+.bg-warning {
+  background: rgb(200, 200, 61);
+}
+
+.bg-info {
+  background: rgb(42, 42, 131);
+}
+
+@media screen and (max-width: 1000px) {
+}
+
+@media screen and (max-width: 760px) {
+}
+
+@media screen and (max-width: 400px) {
+  .w-25 {
+    width: 50%;
+  }
+}
